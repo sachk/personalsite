@@ -51,9 +51,11 @@
                 -webkit-box-flex: 1;
                 flex: 1 1 auto;
                 -ms-flex: 1 1 auto;
-                padding: 32px;
-                width: 80%
+                flex-wrap: wrap;
+                margin: auto 0;
+                padding-bottom: 10vh;
             }
+    
             .main {
                 display: -webkit-box;
                 display: -ms-flexbox;
@@ -67,8 +69,30 @@
                 -webkit-box-pack: center;
                 -ms-flex-pack: center;
                 justify-content: center;    
+                padding: 5%;
+                max-width: 75%;
+                height: max-content;
+                padding-bottom: 0;
             }
     
+            .list {
+                display: -webkit-box;
+                display: -ms-flexbox;
+                display: flex;-webkit-box-flex:1;
+                -ms-flex: 1 1 auto;
+                flex: 1 1 auto;
+                -webkit-box-orient: vertical;
+                -webkit-box-direction: normal;
+                -ms-flex-direction: column;
+                flex-direction: column;
+                -webkit-box-pack: center;
+                -ms-flex-pack: center;
+                justify-content: center;    
+                height: max-content;
+                max-width: 90%;
+                margin: 0 auto;
+            }
+
             ul {
     
                 display: flex;
@@ -84,7 +108,7 @@
                 flex: 0 0 auto;
                 list-style: none;
             }
-    
+
             li > a {
     
                 display: block;
@@ -104,7 +128,8 @@
     
                 .main { 
                     justify-content: start;
-    
+                    max-height: 90%;
+                    padding: 8%
                 }
                 
                 h1, h2 ,h3 {
@@ -123,13 +148,6 @@
                     font-size: 4vh;
                 }
     
-                ul {
-                    position: relative;
-                    left: calc(50% - 4vw);
-                    transform: translateX(-50%);
-                    margin-top: 12vh;
-
-                }
                 li > a {
     
                     height: 18vw;
@@ -144,6 +162,8 @@
             <h2>G'day</h2>
             <h1>I'm Sacha Korban</h1>
             <h3>I'm a full-stack developer with a focus on writing performant code for the cloud</h3>
+        </div>
+        <div class="list">
             <ul>
                 <li>
                     <a href="https://github.com/sachk" target="_blank" rel="noreferrer">
