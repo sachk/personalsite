@@ -1,214 +1,209 @@
 <html lang="en">
-    <head>
-        <title>Sacha Korban</title>
-        <meta name="description" content="Sacha Korban's Personal Website">
-        <meta name="keywords" content="SACHK,SACHA,BLOG,HTML,CSS,JavaScript,Go">
-        <meta name="author" content="Sacha Korban">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-              <style>
-    
-            @font-face {
-              font-family: 'Nexa Bold';
-              font-display: swap;
-              src: local('Nexa Bold'), local('Nexa-Bold'), local('NexaBold'), 
-              url('NexaBold.woff2') format('woff2'), 
-              url('NexaBold.woff') format('woff');
-            }
-    
-            * {
-                font-family: 'Nexa Bold', Helvetica, sans-serif;
-    
-            }
-    
-            h1, h2, h3 {
-    
-                margin: 0.5vw 0;
-            }
-    
-            h1 {
-                font-size: 6.5vw;
-                color: #2bbd7e;
-    
-            }
-    
-            h2 {
-    
-                font-size: 4vw;
-            }
-    
-            h3 {
-    
-                font-size: 3vw;
-    
-            }
-            body {
-                display: flex;
-                margin: 0;
-                padding: 0;
-            }
-            .container {
-                display: flex;
-                -webkit-box-flex: 1;
-                flex: 1 1 auto;
-                -ms-flex: 1 1 auto;
-                flex-wrap: wrap;
-                margin: auto 0;
-                padding-bottom: 10vh;
-            }
-    
-            .main {
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;-webkit-box-flex:1;
-                -ms-flex: 1 1 auto;
-                flex: 1 1 auto;
-                -webkit-box-orient: vertical;
-                -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                flex-direction: column;
-                -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                justify-content: center;    
-                padding: 5%;
-                max-width: 75%;
-                height: max-content;
-                padding-bottom: 0;
-            }
-    
-            .list {
-                display: -webkit-box;
-                display: -ms-flexbox;
-                display: flex;-webkit-box-flex:1;
-                -ms-flex: 1 1 auto;
-                flex: 1 1 auto;
-                -webkit-box-orient: vertical;
-                -webkit-box-direction: normal;
-                -ms-flex-direction: column;
-                flex-direction: column;
-                -webkit-box-pack: center;
-                -ms-flex-pack: center;
-                justify-content: center;    
-                height: max-content;
-                max-width: 90%;
-                margin: 0 auto;
-            }
 
-            ul {
-    
-                display: flex;
-                -webkit-margin-before: 1em;
-                -webkit-margin-after: 1em;
-                -webkit-margin-start: 0px;
-                -webkit-margin-end: 0px;
-                -webkit-padding-start: 0px;
-            }
-    
-            li {
-                -webkit-box-flex: 0;
-                flex: 0 0 auto;
-                list-style: none;
-            }
+<head>
+	<title>Sacha Korban</title>
+	<meta name="description" content="Sacha Korban's Personal Website">
+	<meta name="keywords" content="SACHK,SACHA,BLOG,HTML,CSS,JavaScript,Go">
+	<meta name="author" content="Sacha Korban">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<style>
+		@font-face {
+			font-family: 'Nexa Bold';
+			font-display: swap;
+			src: local('Nexa Bold'), local('Nexa-Bold'), local('NexaBold'),
+			url('NexaBold.woff2') format('woff2'),
+			url('NexaBold.woff') format('woff');
+		}
 
-            li > a {
-    
-                display: block;
-                fill: rgba(142,157,174,.5);
-                -webkit-transition: fill .15s;
-                transition: fill .15s;
-                width: 8vw;
-                height: 8vw;
-            }
-    
-            li > a:hover {
-                
-                fill: #64768a; 
-            }
-    
-            @media only screen and (orientation:portrait) {
-    
-                .main { 
-                    justify-content: start;
-                    max-height: 90%;
-                    padding: 8%
-                }
-                
-                h1, h2 ,h3 {
-    
-                    margin-bottom: 16vw;
-    
-                }
-    
-                h1, h2 {
-    
-                    font-size: 6vh;
-                }
-    
-                h3 {
-    
-                    font-size: 4vh;
-                }
-    
-                li > a {
-    
-                    height: 18vw;
-                    width: 18vw;
-                }
-            }
-        </style>
-        </head>
-        <body>
-        <div class="container">
-            <div class="main">
-            <h2>G'day</h2>
-            <h1>I'm Sacha Korban</h1>
-            <h3>I'm a full-stack developer with a focus on writing performant code for the cloud</h3>
-        </div>
-        <div class="list">
-            <ul>
-                <li>
-                    <a href="https://github.com/sachk" target="_blank" rel="noreferrer">
-                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                            <path d="M18.1 16c-.7 0-1.3.8-1.3 1.8s.6 1.8 1.3 1.8c.7 0 1.3-.8 1.3-1.8s-.6-1.8-1.3-1.8zm4.5-4.6c.1-.4.1-2.4-.6-4.3 0 0-1.8.2-4.5 2-.6-.2-1.5-.2-2.5-.2s-1.9.1-2.5.2C9.8 7.3 8 7.1 8 7.1c-.8 2-.8 4-.6 4.4-.9 1-1.5 2.2-1.5 3.8 0 7.1 5.9 7.2 7.3 7.2h3.4c1.5 0 7.3-.1 7.3-7.2.1-1.7-.4-2.9-1.3-3.9zM15 21.5c-3.8 0-6.6-.4-6.6-4 0-.9.3-1.7 1-2.3 1.2-1.1 3.2-.5 5.6-.5 2.3 0 4.4-.6 5.6.5.7.7 1 1.5 1 2.3 0 3.6-2.9 4-6.6 4zM11.9 16c-.7 0-1.3.8-1.3 1.8s.6 1.8 1.3 1.8c.7 0 1.3-.8 1.3-1.8s-.6-1.8-1.3-1.8z">
-                            </path>
-                        </svg>
-                    </a>
-                </li>
-                <li>
-                        <a href="https://gitlab.com/users/sachk1" target="_blank" rel="noreferrer">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                                <path d="M6.4,12.9L15,24l-9.4-7c-0.3-0.2-0.4-0.5-0.3-0.8L6.4,12.9z M9.3,6.2C9.2,6,9,5.9,8.8,6C8.7,6,8.6,6.1,8.5,6.2l-2.1,6.6h5L9.3,6.2z M11.4,12.9L15,24l3.6-11.2L11.4,12.9z M24.7,16.2l-1.1-3.3L15,24l9.4-7C24.7,16.9,24.8,16.5,24.7,16.2L24.7,16.2z M21.4,6.2C21.4,6,21.2,5.9,21,6c-0.1,0-0.2,0.1-0.3,0.3l-2.1,6.6h5L21.4,6.2L21.4,6.2z"/>                            
-                            </path>
-                            </svg>
-                            </a>
-                    </li>
-                    <li>
-                            <a href="https://hub.docker.com/r/sachk/" target="_blank" rel="noreferrer">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                                    <path d="M16.1,14.3h-2.4v-2.1h2.4V14.3L16.1,14.3z M16.1,6.9h-2.4v2.2h2.4V6.9z M18.9,12.1h-2.4v2.1h2.4V12.1L18.9,12.1z M13.3,9.5h-2.4v2.2h2.4V9.5z M16.1,9.5h-2.4v2.2h2.4V9.5z M26.1,13.1c-0.5-0.3-1.7-0.5-2.6-0.3c-0.1-0.9-0.6-1.6-1.5-2.3l-0.5-0.3l-0.3,0.5c-0.7,1-0.8,2.7-0.1,3.7c-0.3,0.2-0.9,0.4-1.7,0.4H3.6c-0.3,1.8,0.2,4.2,1.6,5.8c1.3,1.6,3.3,2.4,6,2.4c5.7,0,9.9-2.6,11.8-7.4c0.8,0,2.4,0,3.3-1.6c0.1-0.1,0.2-0.5,0.3-0.6L26.1,13.1L26.1,13.1z M7.6,12.1H5.3v2.1h2.4L7.6,12.1L7.6,12.1z M10.4,12.1H8.1v2.1h2.4V12.1z M13.3,12.1h-2.4v2.1h2.4V12.1z M10.4,9.5H8.1v2.2h2.4V9.5z"/>
-                                </path>
-                                </svg>
-                                </a>
-                            </li>
-        
-                    <li>
-                            <a href="mailto:sk@sachk.com" target="_blank" rel="noreferrer">
-                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                                    <path d="M21.6 8.6c-.3.1-15.1 5.3-15.4 5.4-.2.1-.3.3 0 .4.3.1 3.3 1.3 3.3 1.3l2 .8s9.4-6.9 9.6-7c.1-.1.3.1.2.2-.1.1-6.9 7.4-6.9 7.4l-.4.4.5.3s4.1 2.2 4.3 2.3c.3.1.6 0 .7-.3C19.6 19.5 22 9.2 22 9c.1-.3-.1-.5-.4-.4zM11.4 21.2c0 .2.1.3.3.1.2-.2 2.5-2.2 2.5-2.2l-2.8-1.4v3.5z">
-                                    </path>
-                                </svg>
-                            </a>
-                        </li>
-                    <li>
-                        <a href="https://blog.sachk.com" target="_blank" rel="noreferrer">
-                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
-                                <path d="M23.3,13.8c-0.1-0.3-0.3-0.6-0.5-0.7c-0.1,0-0.5-0.1-0.9-0.1c-0.7,0-0.8,0-1.1-0.2c-0.4-0.2-0.5-0.5-0.5-1.1c0-1.2-0.5-2.4-1.5-3.4c-0.7-0.7-1.5-1.2-2.4-1.5c-0.2-0.1-0.7-0.1-2.4-0.1c-2.6,0-3.1,0-4,0.4c-1.6,0.6-2.8,2-3.2,3.7c-0.1,0.3-0.1,0.9-0.1,3.9c0,3.8,0,4.3,0.2,5.1c0.6,1.8,2.2,3.2,3.9,3.5c0.5,0.1,7.3,0.1,8,0c1.2-0.2,2.2-0.7,3-1.6c0.6-0.7,1-1.4,1.3-2.3C23.4,18.7,23.3,14.1,23.3,13.8L23.3,13.8z M11.3,11.4c0.3-0.3,0.4-0.3,2.2-0.3c1.6,0,1.7,0,1.9,0.1c0.3,0.2,0.5,0.4,0.5,0.8c0,0.4-0.1,0.6-0.5,0.8c-0.2,0.1-0.3,0.1-1.9,0.1c-1,0-1.8,0-1.9,0C11.1,12.7,10.9,11.9,11.3,11.4z M18.4,18.8l-0.6,0.1l-2.9,0c-2.5,0-3.2,0-3.4-0.1c-0.3-0.1-0.5-0.4-0.6-0.7c0-0.3,0.1-0.6,0.3-0.8c0.3-0.2,0.4-0.2,3.6-0.2c3.3,0,3.3,0,3.6,0.3C19.1,17.8,19,18.5,18.4,18.8L18.4,18.8z"/>
-                                </path>
-                            </svg>
-                        </a>
-                    </li>
+		* {
+			font-family: 'Nexa Bold', Helvetica, sans-serif;
+		}
 
-            </ul>
-        </div>
-        </div>
-        
-    </body></html>
+		h1,
+		h2,
+		h3 {
+			margin: 0.5vw 0;
+		}
+
+		h1 {
+			font-size: 6.5vw;
+			color: #2bbd7e;
+		}
+
+		h2 {
+			font-size: 4vw;
+		}
+
+		h3 {
+			font-size: 3vw;
+		}
+
+		body {
+			display: flex;
+			margin: 0;
+			padding: 0;
+		}
+
+		.container {
+			display: flex;
+			-webkit-box-flex: 1;
+			flex: 1 1 auto;
+			-ms-flex: 1 1 auto;
+			flex-wrap: wrap;
+			margin: auto 0;
+		}
+
+		.main {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-flex: 1;
+			-ms-flex: 1 1 auto;
+			flex: 1 1 auto;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			padding: 5%;
+			height: max-content;
+			padding-bottom: 0;
+		}
+
+		.list {
+			display: -webkit-box;
+			display: -ms-flexbox;
+			display: flex;
+			-webkit-box-flex: 1;
+			-ms-flex: 1 1 auto;
+			flex: 1 1 auto;
+			-webkit-box-orient: vertical;
+			-webkit-box-direction: normal;
+			-ms-flex-direction: column;
+			flex-direction: column;
+			-webkit-box-pack: center;
+			-ms-flex-pack: center;
+			justify-content: center;
+			height: max-content;
+			max-width: 90%;
+			margin: 0 auto;
+		}
+
+		ul {
+			display: flex;
+			-webkit-margin-before: 1em;
+			-webkit-margin-after: 1em;
+			-webkit-margin-start: 0px;
+			-webkit-margin-end: 0px;
+			-webkit-padding-start: 0px;
+		}
+
+		li {
+			-webkit-box-flex: 0;
+			flex: 0 0 auto;
+			list-style: none;
+		}
+
+		li>a {
+			display: block;
+			fill: rgba(142, 157, 174, .5);
+			-webkit-transition: fill .15s;
+			transition: fill .15s;
+			width: 8vw;
+			height: 8vw;
+		}
+
+		li>a:hover {
+			fill: #64768a;
+		}
+
+		@media only screen and (orientation:portrait) {
+			.main {
+				justify-content: start;
+				padding: 8%;
+			}
+
+			h1,
+			h2,
+			h3 {
+				margin-bottom: 16vw;
+			}
+
+			h1,
+			h2 {
+				font-size: 6vh;
+			}
+
+			h3 {
+				font-size: 4vh;
+			}
+
+			li>a {
+				height: 18vw;
+				width: 18vw;
+			}
+		}
+
+	</style>
+</head>
+
+<body>
+	<div class="container">
+		<div class="main">
+			<h2>G'day</h2>
+			<h1>I'm Sacha Korban</h1>
+			<h3>I'm a full-stack developer with a focus on writing performant code for the cloud</h3>
+		</div>
+		<div class="list">
+			<ul>
+				<li>
+					<a href="https://github.com/sachk" target="_blank" rel="noreferrer">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+							<path d="M18.1 16c-.7 0-1.3.8-1.3 1.8s.6 1.8 1.3 1.8c.7 0 1.3-.8 1.3-1.8s-.6-1.8-1.3-1.8zm4.5-4.6c.1-.4.1-2.4-.6-4.3 0 0-1.8.2-4.5 2-.6-.2-1.5-.2-2.5-.2s-1.9.1-2.5.2C9.8 7.3 8 7.1 8 7.1c-.8 2-.8 4-.6 4.4-.9 1-1.5 2.2-1.5 3.8 0 7.1 5.9 7.2 7.3 7.2h3.4c1.5 0 7.3-.1 7.3-7.2.1-1.7-.4-2.9-1.3-3.9zM15 21.5c-3.8 0-6.6-.4-6.6-4 0-.9.3-1.7 1-2.3 1.2-1.1 3.2-.5 5.6-.5 2.3 0 4.4-.6 5.6.5.7.7 1 1.5 1 2.3 0 3.6-2.9 4-6.6 4zM11.9 16c-.7 0-1.3.8-1.3 1.8s.6 1.8 1.3 1.8c.7 0 1.3-.8 1.3-1.8s-.6-1.8-1.3-1.8z">
+							</path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://gitlab.com/users/sachk1" target="_blank" rel="noreferrer">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+							<path d="M6.4,12.9L15,24l-9.4-7c-0.3-0.2-0.4-0.5-0.3-0.8L6.4,12.9z M9.3,6.2C9.2,6,9,5.9,8.8,6C8.7,6,8.6,6.1,8.5,6.2l-2.1,6.6h5L9.3,6.2z M11.4,12.9L15,24l3.6-11.2L11.4,12.9z M24.7,16.2l-1.1-3.3L15,24l9.4-7C24.7,16.9,24.8,16.5,24.7,16.2L24.7,16.2z M21.4,6.2C21.4,6,21.2,5.9,21,6c-0.1,0-0.2,0.1-0.3,0.3l-2.1,6.6h5L21.4,6.2L21.4,6.2z" />
+							</path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://hub.docker.com/r/sachk/" target="_blank" rel="noreferrer">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+							<path d="M16.1,14.3h-2.4v-2.1h2.4V14.3L16.1,14.3z M16.1,6.9h-2.4v2.2h2.4V6.9z M18.9,12.1h-2.4v2.1h2.4V12.1L18.9,12.1z M13.3,9.5h-2.4v2.2h2.4V9.5z M16.1,9.5h-2.4v2.2h2.4V9.5z M26.1,13.1c-0.5-0.3-1.7-0.5-2.6-0.3c-0.1-0.9-0.6-1.6-1.5-2.3l-0.5-0.3l-0.3,0.5c-0.7,1-0.8,2.7-0.1,3.7c-0.3,0.2-0.9,0.4-1.7,0.4H3.6c-0.3,1.8,0.2,4.2,1.6,5.8c1.3,1.6,3.3,2.4,6,2.4c5.7,0,9.9-2.6,11.8-7.4c0.8,0,2.4,0,3.3-1.6c0.1-0.1,0.2-0.5,0.3-0.6L26.1,13.1L26.1,13.1z M7.6,12.1H5.3v2.1h2.4L7.6,12.1L7.6,12.1z M10.4,12.1H8.1v2.1h2.4V12.1z M13.3,12.1h-2.4v2.1h2.4V12.1z M10.4,9.5H8.1v2.2h2.4V9.5z" />
+							</path>
+						</svg>
+					</a>
+				</li>
+
+				<li>
+					<a href="mailto:sk@sachk.com" target="_blank" rel="noreferrer">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+							<path d="M21.6 8.6c-.3.1-15.1 5.3-15.4 5.4-.2.1-.3.3 0 .4.3.1 3.3 1.3 3.3 1.3l2 .8s9.4-6.9 9.6-7c.1-.1.3.1.2.2-.1.1-6.9 7.4-6.9 7.4l-.4.4.5.3s4.1 2.2 4.3 2.3c.3.1.6 0 .7-.3C19.6 19.5 22 9.2 22 9c.1-.3-.1-.5-.4-.4zM11.4 21.2c0 .2.1.3.3.1.2-.2 2.5-2.2 2.5-2.2l-2.8-1.4v3.5z">
+							</path>
+						</svg>
+					</a>
+				</li>
+				<li>
+					<a href="https://blog.sachk.com" target="_blank" rel="noreferrer">
+						<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30">
+							<path d="M23.3,13.8c-0.1-0.3-0.3-0.6-0.5-0.7c-0.1,0-0.5-0.1-0.9-0.1c-0.7,0-0.8,0-1.1-0.2c-0.4-0.2-0.5-0.5-0.5-1.1c0-1.2-0.5-2.4-1.5-3.4c-0.7-0.7-1.5-1.2-2.4-1.5c-0.2-0.1-0.7-0.1-2.4-0.1c-2.6,0-3.1,0-4,0.4c-1.6,0.6-2.8,2-3.2,3.7c-0.1,0.3-0.1,0.9-0.1,3.9c0,3.8,0,4.3,0.2,5.1c0.6,1.8,2.2,3.2,3.9,3.5c0.5,0.1,7.3,0.1,8,0c1.2-0.2,2.2-0.7,3-1.6c0.6-0.7,1-1.4,1.3-2.3C23.4,18.7,23.3,14.1,23.3,13.8L23.3,13.8z M11.3,11.4c0.3-0.3,0.4-0.3,2.2-0.3c1.6,0,1.7,0,1.9,0.1c0.3,0.2,0.5,0.4,0.5,0.8c0,0.4-0.1,0.6-0.5,0.8c-0.2,0.1-0.3,0.1-1.9,0.1c-1,0-1.8,0-1.9,0C11.1,12.7,10.9,11.9,11.3,11.4z M18.4,18.8l-0.6,0.1l-2.9,0c-2.5,0-3.2,0-3.4-0.1c-0.3-0.1-0.5-0.4-0.6-0.7c0-0.3,0.1-0.6,0.3-0.8c0.3-0.2,0.4-0.2,3.6-0.2c3.3,0,3.3,0,3.6,0.3C19.1,17.8,19,18.5,18.4,18.8L18.4,18.8z" />
+							</path>
+						</svg>
+					</a>
+				</li>
+
+			</ul>
+		</div>
+	</div>
+
+</body>
+
+</html>
