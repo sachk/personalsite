@@ -8,15 +8,20 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<style>
 		@font-face {
-			font-family: 'Nexa Bold';
-			font-display: swap;
-			src: local('Nexa Bold'), local('Nexa-Bold'), local('NexaBold'),
-			url('NexaBold.woff2') format('woff2'),
-			url('NexaBold.woff') format('woff');
+		    font-family: 'Nexa';
+		    src: url('hinted-subset-NexaBold.eot');
+		    src: url('hinted-subset-NexaBold.eot?#iefix') format('embedded-opentype'),
+		        url('hinted-subset-NexaBold.woff2') format('woff2'),
+		        url('hinted-subset-NexaBold.woff') format('woff'),
+		        url('hinted-subset-NexaBold.ttf') format('truetype'),
+		        url('hinted-subset-NexaBold.svg#NexaBold') format('svg');
+		    font-weight: bold;
+		    font-style: normal;
 		}
 
 		* {
-			font-family: 'Nexa Bold', Helvetica, sans-serif;
+			font-family: 'Nexa', Helvetica, sans-serif;
+			font-weight: bold
 		}
 
 		h1,
