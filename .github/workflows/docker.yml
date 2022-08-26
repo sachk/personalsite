@@ -26,8 +26,8 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GH_TOKEN }}
-      - name: CompressFiles
-        uses: stefh/ghaction-CompressFiles@v2
+      - name: Compress Public Assets
+        uses: sachk/compress-action@v1
         with:
           path: public
           extensions: '.js,.css,.html'
