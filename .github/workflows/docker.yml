@@ -26,10 +26,6 @@ jobs:
           registry: ghcr.io
           username: ${{ github.actor }}
           password: ${{ secrets.GH_TOKEN }}
-      - name: Compress Public Assets
-        uses: sachk/compress-action@master
-        with:
-          path: public
       - name: Build and push Docker image
         uses: docker/build-push-action@v3
         with:
